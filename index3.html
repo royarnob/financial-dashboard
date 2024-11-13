@@ -1,7 +1,10 @@
-<html>
+<!DOCTYPE html>
 
-<div class="tradingview-widget-container" style="height:50%;width:50%">
-    <div class="tradingview-widget-container__widget" style="height:calc(50% - 32px);width:50%"></div>
+<html lang="en">
+
+<body>
+  <div class="tradingview-widget-container" style="height:100%;width:100%">
+    <div class="tradingview-widget-container__widget" style="height:calc(100% - 32px);width:100%"></div>
     <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
     {
     "autosize": true,
@@ -40,45 +43,6 @@
   }
     </script>
   </div>
+</body>
 
-  <div class="tradingview-widget-container" style="height:50%;width:50%">
-    <div class="tradingview-widget-container__widget" style="height:calc(50% - 32px);width:50%"></div>
-    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
-    {
-    "autosize": true,
-    "symbol": "NASDAQ:NVDA",
-    "timezone": "exchange",
-    "theme": "dark",
-    "style": "2",
-    "locale": "en",
-    "backgroundColor": "rgba(0, 0, 0, 1)",
-    "gridColor": "rgba(0, 0, 0, 0)",
-    "hide_top_toolbar": true,
-    "range": "12M",
-    "allow_symbol_change": false,
-    "save_image": false,
-    "compareSymbols": [
-      {
-        "symbol": "NASDAQ:AAPL",
-        "position": "SameScale"
-      },
-      {
-        "symbol": "NASDAQ:MSFT",
-        "position": "SameScale"
-      },
-      {
-        "symbol": "NASDAQ:GOOG",
-        "position": "SameScale"
-      },
-      {
-        "symbol": "NASDAQ:AMZN",
-        "position": "SameScale"
-      }
-    ],
-    "calendar": false,
-    "hide_volume": true,
-    "support_host": "https://www.tradingview.com"
-  }
-    </script>
-  </div>
 </html>
