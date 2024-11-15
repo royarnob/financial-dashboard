@@ -2,77 +2,101 @@
 
 <html lang="en">
 
-<body><!-- TradingView Widget BEGIN -->
-  <div class="tradingview-widget-container">
-    <div class="tradingview-widget-container__widget"></div>
-    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
-    {
-    "width": "700",
-    "height": "500",
-    "symbolsGroups": [
-      {
-        "name": "SEMICONDUCTORS",
-        "symbols": [
-          {
-            "name": "NASDAQ:AMD",
-            "displayName": "Advanced Micro Devices"
-          },
-          {
-            "name": "NASDAQ:ARM",
-            "displayName": "Advanced RISC Machines"
-          },
-          {
-            "name": "NASDAQ:ASML",
-            "displayName": "Advanced Semiconductor Materials Lithography"
-          },
-          {
-            "name": "NASDAQ:AVGO",
-            "displayName": "Broadcom"
-          },
-          {
-            "name": "NASDAQ:AMAT",
-            "displayName": "Applied Materials"
-          },
-          {
-            "name": "NASDAQ:AMAT",
-            "displayName": "AMAT | Applied Materials"
-          },
-          {
-            "name": "NASDAQ:AMAT",
-            "displayName": "AMAT | Applied Materials"
-          },
-          {
-            "name": "NASDAQ:NVDA",
-            "displayName": "NVIDIA"
-          },
-          {
-            "name": "NASDAQ:AMAT",
-            "displayName": "AMAT | Applied Materials"
-          },
-          {
-            "name": "NASDAQ:QCOM",
-            "displayName": "Qualcomm"
-          }
-        ]
-      }
-    ],
-    "showSymbolLogo": true,
-    "isTransparent": false,
-    "colorTheme": "dark",
-    "locale": "en",
-    "backgroundColor": "#131722"
-  }
-    </script>
-  </div>
-  <!-- TradingView Widget END -->
+<head>
+	<link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+	<div class = "container">
+		<div>
+			<h1>AI Industry Dashboard</h1>
+			<p>Monitor the most popular AI stocks and analyze their value.</p>
+		</div>
+
+		<div>
+			<p>Section 2</p>
+		</div>
+
+		<div>
+			<p>Section 3</p>
+		</div>
+		<div>
+			<div class="item tradingview-widget-container">
+			<script type="text/javascript" src="embed-widget-market-quotes.js" async>
+			{
+			"width": "455",
+			"height": "695",
+			"symbolsGroups": [
+			{
+				"name": "AI CHIP DESIGN",
+				"symbols": [
+				{
+					"name": "NASDAQ:AMD",
+					"displayName": "AMD"
+				},
+				{
+					"name": "NASDAQ:ARM",
+					"displayName": "ARM"
+				},
+				{
+					"name": "NASDAQ:AVGO",
+					"displayName": "Broadcom"
+				},
+				{
+					"name": "NASDAQ:INTC",
+					"displayName": "Intel"
+				},
+				{
+					"name": "NASDAQ:NVDA",
+					"displayName": "NVIDIA"
+				},
+				{
+					"name": "NASDAQ:MRVL",
+					"displayName": "Marvell"
+				},
+				{
+					"name": "NASDAQ:MU",
+					"displayName": "Micron"
+				},
+				{
+					"name": "NASDAQ:QCOM",
+					"displayName": "Qualcomm"
+				}
+				]
+			},
+			{
+				"name": "SEMICONDUCTOR MANUFACTURING",
+				"symbols": [
+				{
+					"name": "NASDAQ:ASML",
+					"displayName": "ASML"
+				},
+				{
+					"name": "NASDAQ:AMAT",
+					"displayName": "Applied Materials"
+				},
+				{
+					"name": "NASDAQ:NXPI",
+					"displayName": "NXP"
+				},
+				{
+					"name": "NYSE:TSM",
+					"displayName": "TSMC"
+				}
+				]
+			}
+			],
+			"showSymbolLogo": true,
+			"isTransparent": true,
+			"colorTheme": "dark",
+			"locale": "en",
+			"backgroundColor": "#131722"
+			}
+			</script>
+			</div>
+		</div>
+	</div>
+	
 </body>
 
 </html>
-
-
-<style>
-  tradingview-widget-container {
-    height:500px;
-    width: 500px
-  }
-</style>
